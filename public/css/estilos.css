@@ -1,5 +1,29 @@
 *{
-    box-sizing: content-box;
+    box-sizing:border-box;
     margin: 0;
     padding: 0;
+}
+#encabezadoPagina #barraNav{
+    margin: 0;
+}
+#banner{
+    background-image: url("/imagenes/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    min-height: 500px;
+    margin: 0 auto;
+    
+}
+#portfolio{
+    margin-top: 200px;
+    box-shadow: 10px 10px 14px 1px rgba(0,0,0,0.75);
+  
+}
+.titulo{
+    font-size: 70px;
+}
+.contieneImg{
+    margin: 10px;
+    padding: 5px
 }
