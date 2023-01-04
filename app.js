@@ -1,7 +1,7 @@
 // Librerías, módulos, variables, etc.
 const express = require('express');
 const app = express();
-const puerto = 3000;
+const puerto = 3002;
 const rutasMain = require('./src/routes/main.js');
 
 //Configuración de carpetas y vistas
